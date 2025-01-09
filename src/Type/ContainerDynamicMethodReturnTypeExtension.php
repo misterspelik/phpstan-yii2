@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Proget\PHPStan\Yii2\Type;
+namespace misterspelik\PHPStan\Yii2\Type;
 
 use PhpParser\Node\Arg;
 use PhpParser\Node\Expr\MethodCall;
@@ -12,7 +12,7 @@ use PHPStan\Reflection\ParametersAcceptorSelector;
 use PHPStan\Type\DynamicMethodReturnTypeExtension;
 use PHPStan\Type\ObjectType;
 use PHPStan\Type\Type;
-use Proget\PHPStan\Yii2\ServiceMap;
+use misterspelik\PHPStan\Yii2\ServiceMap;
 use yii\di\Container;
 
 final class ContainerDynamicMethodReturnTypeExtension implements DynamicMethodReturnTypeExtension

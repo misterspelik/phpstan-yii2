@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Proget\PHPStan\Yii2\Reflection;
+namespace misterspelik\PHPStan\Yii2\Reflection;
 
 use PHPStan\Reflection\Annotations\AnnotationsPropertiesClassReflectionExtension;
 use PHPStan\Reflection\ClassReflection;
@@ -11,7 +11,7 @@ use PHPStan\Reflection\PropertiesClassReflectionExtension;
 use PHPStan\Reflection\PropertyReflection;
 use PHPStan\Reflection\ReflectionProvider;
 use PHPStan\Type\ObjectType;
-use Proget\PHPStan\Yii2\ServiceMap;
+use misterspelik\PHPStan\Yii2\ServiceMap;
 use yii\base\Application as BaseApplication;
 use yii\web\Application as WebApplication;
 

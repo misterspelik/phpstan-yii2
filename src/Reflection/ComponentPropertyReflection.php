@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Proget\PHPStan\Yii2\Reflection;
+namespace misterspelik\PHPStan\Yii2\Reflection;
 
 use PHPStan\Reflection\ClassReflection;
 use PHPStan\Reflection\PropertyReflection;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Proget\PHPStan\Yii2\Type;
+namespace misterspelik\PHPStan\Yii2\Type;
 
 use PHPStan\TrinaryLogic;
 use PHPStan\Type\Constant\ConstantStringType;

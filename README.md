@@ -1,10 +1,10 @@
 # Yii2 extension for PHPStan
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.2-8892BF.svg)](https://php.net/)
-[![Latest Stable Version](https://img.shields.io/packagist/v/proget-hq/phpstan-yii2.svg)](https://packagist.org/packages/proget-hq/phpstan-yii2)
-[![Build Status](https://github.com/proget-hq/phpstan-yii2/workflows/build/badge.svg)](https://github.com/proget-hq/phpstan-yii2/actions?query=workflow%3Abuild)
-[![Total Downloads](https://poser.pugx.org/proget-hq/phpstan-yii2/downloads.svg)](https://packagist.org/packages/proget-hq/phpstan-yii2)
-[![License](https://poser.pugx.org/proget-hq/phpstan-yii2/license.svg)](https://packagist.org/packages/proget-hq/phpstan-yii2)
+[![Latest Stable Version](https://img.shields.io/packagist/v/misterspelik/phpstan-yii2.svg)](https://packagist.org/packages/misterspelik/phpstan-yii2)
+[![Build Status](https://github.com/misterspelik/phpstan-yii2/workflows/build/badge.svg)](https://github.com/misterspelik/phpstan-yii2/actions?query=workflow%3Abuild)
+[![Total Downloads](https://poser.pugx.org/misterspelik/phpstan-yii2/downloads.svg)](https://packagist.org/packages/misterspelik/phpstan-yii2)
+[![License](https://poser.pugx.org/misterspelik/phpstan-yii2/license.svg)](https://packagist.org/packages/misterspelik/phpstan-yii2)
 
 ## What does it do?
 
@@ -15,18 +15,19 @@
 ## Compatibility
 
 | PHPStan version | Yii2 extension version |
-|-----------------|------------------------|
-| 1.x             | 0.8.x                  |
-| 0.12            | 0.7.x                  |
-| 0.11            | 0.5.x - 0.6.x          |
-| 0.10.3          | 0.4.x                  |
-| 0.10            | 0.3.0                  |
-| 0.9.2           | 0.2.0                  |
+|-----------------|----------------------|
+| 2.x             | 1.x                  |
+| 1.x             | 0.8.x                |
+| 0.12            | 0.7.x                |
+| 0.11            | 0.5.x - 0.6.x        |
+| 0.10.3          | 0.4.x                |
+| 0.10            | 0.3.0                |
+| 0.9.2           | 0.2.0                |
 
 ## Installation
 
 ```sh
-composer require --dev proget-hq/phpstan-yii2
+composer require --dev misterspelik/phpstan-yii2
 ```
 
 ## Configuration
@@ -35,7 +36,7 @@ Put this into your `phpstan.neon` config:
 
 ```neon
 includes:
-	- vendor/proget-hq/phpstan-yii2/extension.neon
+	- vendor/misterspelik/phpstan-yii2/extension.neon
 parameters:
     yii2:
         config_path: %rootDir%/../../../config/test.php
